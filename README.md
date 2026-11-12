@@ -26,3 +26,9 @@ Los turnos que terminan después de medianoche se registran marcando «La salida
 Los registros se guardan en `localStorage` del navegador, bajo la clave `mi-practica.entries.v1`. Permanecen al recargar la página, pero no se sincronizan entre dispositivos, navegadores o direcciones de la web. Borrar los datos del navegador elimina los registros. Exporta un CSV desde «Mis registros» para conservar una copia. Esta versión no tiene importación de CSV, servidor, cuentas ni almacenamiento remoto.
 
 Las fuentes están incluidas en el proyecto; la página no solicita fuentes ni servicios externos al utilizarse.
+
+## Publicación
+
+Página: https://matpaz400.github.io/LABORALES/
+
+Los archivos de desarrollo están en `app/`. GitHub Pages sirve la compilación de la raíz de la rama `main`. Para publicar cambios, ejecuta `npm run build:pages` y sube también los archivos generados `index.html`, `favicon.svg`, `.nojekyll` y `assets/` a GitHub. No se necesitan cambios de configuración de Pages.
